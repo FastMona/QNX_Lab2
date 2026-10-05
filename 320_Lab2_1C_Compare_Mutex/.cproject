@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.qnx.qcc.toolChain.968606457">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.toolChain.968606457" moduleId="org.eclipse.cdt.core.settings" name="x86_64-debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.systembuilder.cdt.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QDELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;com.qnx.tools.ide.qde.core.QDELinkerErrorParser;com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser;com.qnx.tools.ide.systembuilder.cdt.core.errorparser" id="com.qnx.qcc.toolChain.968606457" name="x86_64-debug" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.qnx.qcc.toolChain.968606457.2107477677" name="/" resourcePath="">
+						<toolChain id="com.qnx.qcc.toolChain.1563537233" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
+							<option id="com.qnx.qcc.option.os.1917036839" name="Target OS:" superClass="com.qnx.qcc.option.os"/>
+							<option id="com.qnx.qcc.option.cpu.28427044" name="Target CPU:" superClass="com.qnx.qcc.option.cpu"/>
+							<option id="com.qnx.qcc.option.compiler.1454407949" name="Compiler:" superClass="com.qnx.qcc.option.compiler"/>
+							<option id="com.qnx.qcc.option.runtime.2110196102" name="C++ Runtime:" superClass="com.qnx.qcc.option.runtime"/>
+							<option id="com.qnx.qcc.option.buildtype.1215956301" name="Build Type:" superClass="com.qnx.qcc.option.buildtype"/>
+							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.1678477703" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
+							<builder id="cdt.managedbuild.target.gnu.builder.base.2084706723" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.qnx.qcc.tool.compiler.840778931" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
+								<option id="com.qnx.qcc.option.compiler.optlevel.1398447140" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.0" valueType="enumerated"/>
+								<inputType id="com.qnx.qcc.inputType.compiler.1071806942" superClass="com.qnx.qcc.inputType.compiler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.assembler.2117078614" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
+								<inputType id="com.qnx.qcc.inputType.assembler.1714836661" superClass="com.qnx.qcc.inputType.assembler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.linker.870261004" name="QCC Linker" superClass="com.qnx.qcc.tool.linker"/>
+							<tool id="com.qnx.qcc.tool.archiver.1490383560" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.qnx.qcc.toolChain.335219702">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.toolChain.335219702" moduleId="org.eclipse.cdt.core.settings" name="x86_64-release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.systembuilder.cdt.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QDELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;com.qnx.tools.ide.qde.core.QDELinkerErrorParser;com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser;com.qnx.tools.ide.systembuilder.cdt.core.errorparser" id="com.qnx.qcc.toolChain.335219702" name="x86_64-release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.qnx.qcc.toolChain.335219702.1379568968" name="/" resourcePath="">
+						<toolChain id="com.qnx.qcc.toolChain.1172943891" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
+							<option id="com.qnx.qcc.option.os.733519739" name="Target OS:" superClass="com.qnx.qcc.option.os"/>
+							<option id="com.qnx.qcc.option.cpu.1950977996" name="Target CPU:" superClass="com.qnx.qcc.option.cpu"/>
+							<option id="com.qnx.qcc.option.compiler.1544032994" name="Compiler:" superClass="com.qnx.qcc.option.compiler"/>
+							<option id="com.qnx.qcc.option.runtime.625979097" name="C++ Runtime:" superClass="com.qnx.qcc.option.runtime"/>
+							<option id="com.qnx.qcc.option.buildtype.1512343720" name="Build Type:" superClass="com.qnx.qcc.option.buildtype" value="release" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.1393673053" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
+							<builder id="cdt.managedbuild.target.gnu.builder.base.600568764" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.qnx.qcc.tool.compiler.1876536610" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
+								<option id="com.qnx.qcc.option.compiler.optlevel.1766297627" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.0" valueType="enumerated"/>
+								<inputType id="com.qnx.qcc.inputType.compiler.622230498" superClass="com.qnx.qcc.inputType.compiler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.assembler.959828855" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
+								<inputType id="com.qnx.qcc.inputType.assembler.1354147409" superClass="com.qnx.qcc.inputType.assembler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.linker.1978838889" name="QCC Linker" superClass="com.qnx.qcc.tool.linker"/>
+							<tool id="com.qnx.qcc.tool.archiver.677534349" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.qnx.qcc.toolChain.907580146">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.toolChain.907580146" moduleId="org.eclipse.cdt.core.settings" name="x86_64-coverage">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.systembuilder.cdt.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QDELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;com.qnx.tools.ide.qde.core.QDELinkerErrorParser;com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser;com.qnx.tools.ide.systembuilder.cdt.core.errorparser" id="com.qnx.qcc.toolChain.907580146" name="x86_64-coverage" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.qnx.qcc.toolChain.907580146.1189407505" name="/" resourcePath="">
+						<toolChain id="com.qnx.qcc.toolChain.965131713" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
+							<option id="com.qnx.qcc.option.os.1439887336" name="Target OS:" superClass="com.qnx.qcc.option.os"/>
+							<option id="com.qnx.qcc.option.cpu.352535793" name="Target CPU:" superClass="com.qnx.qcc.option.cpu"/>
+							<option id="com.qnx.qcc.option.compiler.2048152827" name="Compiler:" superClass="com.qnx.qcc.option.compiler"/>
+							<option id="com.qnx.qcc.option.runtime.45385725" name="C++ Runtime:" superClass="com.qnx.qcc.option.runtime"/>
+							<option id="com.qnx.qcc.option.buildtype.1269689253" name="Build Type:" superClass="com.qnx.qcc.option.buildtype" value="coverage" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.132120061" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
+							<builder id="cdt.managedbuild.target.gnu.builder.base.1480046861" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.qnx.qcc.tool.compiler.1062864820" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
+								<option id="com.qnx.qcc.option.compiler.optlevel.266888835" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.0" valueType="enumerated"/>
+								<inputType id="com.qnx.qcc.inputType.compiler.143532431" superClass="com.qnx.qcc.inputType.compiler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.assembler.851824817" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
+								<inputType id="com.qnx.qcc.inputType.assembler.1937640774" superClass="com.qnx.qcc.inputType.assembler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.linker.655280726" name="QCC Linker" superClass="com.qnx.qcc.tool.linker"/>
+							<tool id="com.qnx.qcc.tool.archiver.1333826302" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.qnx.qcc.toolChain.1500206745">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.toolChain.1500206745" moduleId="org.eclipse.cdt.core.settings" name="x86_64-profile">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.systembuilder.cdt.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QDELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;com.qnx.tools.ide.qde.core.QDELinkerErrorParser;com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser;com.qnx.tools.ide.systembuilder.cdt.core.errorparser" id="com.qnx.qcc.toolChain.1500206745" name="x86_64-profile" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.qnx.qcc.toolChain.1500206745.1545476098" name="/" resourcePath="">
+						<toolChain id="com.qnx.qcc.toolChain.1886769386" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
+							<option id="com.qnx.qcc.option.os.758841193" name="Target OS:" superClass="com.qnx.qcc.option.os"/>
+							<option id="com.qnx.qcc.option.cpu.136151414" name="Target CPU:" superClass="com.qnx.qcc.option.cpu"/>
+							<option id="com.qnx.qcc.option.compiler.153328486" name="Compiler:" superClass="com.qnx.qcc.option.compiler"/>
+							<option id="com.qnx.qcc.option.runtime.1879623217" name="C++ Runtime:" superClass="com.qnx.qcc.option.runtime"/>
+							<option id="com.qnx.qcc.option.buildtype.1491194997" name="Build Type:" superClass="com.qnx.qcc.option.buildtype" value="profile" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.441332574" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
+							<builder id="cdt.managedbuild.target.gnu.builder.base.836330335" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.qnx.qcc.tool.compiler.1439510050" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
+								<option id="com.qnx.qcc.option.compiler.optlevel.354574601" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.0" valueType="enumerated"/>
+								<inputType id="com.qnx.qcc.inputType.compiler.332354855" superClass="com.qnx.qcc.inputType.compiler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.assembler.1546708709" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
+								<inputType id="com.qnx.qcc.inputType.assembler.973602589" superClass="com.qnx.qcc.inputType.assembler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.linker.1484710009" name="QCC Linker" superClass="com.qnx.qcc.tool.linker"/>
+							<tool id="com.qnx.qcc.tool.archiver.2087024232" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.qnx.qcc.toolChain.844662996">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.toolChain.844662996" moduleId="org.eclipse.cdt.core.settings" name="aarch64le-debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.systembuilder.cdt.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QDELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;com.qnx.tools.ide.qde.core.QDELinkerErrorParser;com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser;com.qnx.tools.ide.systembuilder.cdt.core.errorparser" id="com.qnx.qcc.toolChain.844662996" name="aarch64le-debug" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.qnx.qcc.toolChain.844662996.715701991" name="/" resourcePath="">
+						<toolChain id="com.qnx.qcc.toolChain.2046461071" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
+							<option id="com.qnx.qcc.option.os.2045063500" name="Target OS:" superClass="com.qnx.qcc.option.os"/>
+							<option id="com.qnx.qcc.option.cpu.1440314382" name="Target CPU:" superClass="com.qnx.qcc.option.cpu" value="com.qnx.qcc.option.gen.cpu.aarch64le" valueType="enumerated"/>
+							<option id="com.qnx.qcc.option.compiler.1617729896" name="Compiler:" superClass="com.qnx.qcc.option.compiler"/>
+							<option id="com.qnx.qcc.option.runtime.1347105660" name="C++ Runtime:" superClass="com.qnx.qcc.option.runtime"/>
+							<option id="com.qnx.qcc.option.buildtype.1827416734" name="Build Type:" superClass="com.qnx.qcc.option.buildtype"/>
+							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.2107624894" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
+							<builder id="cdt.managedbuild.target.gnu.builder.base.1825267185" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.qnx.qcc.tool.compiler.784848383" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
+								<option id="com.qnx.qcc.option.compiler.optlevel.958933306" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.0" valueType="enumerated"/>
+								<inputType id="com.qnx.qcc.inputType.compiler.278169400" superClass="com.qnx.qcc.inputType.compiler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.assembler.297030847" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
+								<inputType id="com.qnx.qcc.inputType.assembler.1469007891" superClass="com.qnx.qcc.inputType.assembler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.linker.69548385" name="QCC Linker" superClass="com.qnx.qcc.tool.linker"/>
+							<tool id="com.qnx.qcc.tool.archiver.1563228249" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.qnx.qcc.toolChain.824617909">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.toolChain.824617909" moduleId="org.eclipse.cdt.core.settings" name="aarch64le-release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.systembuilder.cdt.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QDELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;com.qnx.tools.ide.qde.core.QDELinkerErrorParser;com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser;com.qnx.tools.ide.systembuilder.cdt.core.errorparser" id="com.qnx.qcc.toolChain.824617909" name="aarch64le-release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.qnx.qcc.toolChain.824617909.1865531372" name="/" resourcePath="">
+						<toolChain id="com.qnx.qcc.toolChain.1580282239" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
+							<option id="com.qnx.qcc.option.os.14450261" name="Target OS:" superClass="com.qnx.qcc.option.os"/>
+							<option id="com.qnx.qcc.option.cpu.818319720" name="Target CPU:" superClass="com.qnx.qcc.option.cpu" value="com.qnx.qcc.option.gen.cpu.aarch64le" valueType="enumerated"/>
+							<option id="com.qnx.qcc.option.compiler.974986775" name="Compiler:" superClass="com.qnx.qcc.option.compiler"/>
+							<option id="com.qnx.qcc.option.runtime.1027925245" name="C++ Runtime:" superClass="com.qnx.qcc.option.runtime"/>
+							<option id="com.qnx.qcc.option.buildtype.1405190229" name="Build Type:" superClass="com.qnx.qcc.option.buildtype" value="release" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.1415635250" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
+							<builder id="cdt.managedbuild.target.gnu.builder.base.1190413774" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.qnx.qcc.tool.compiler.1260731701" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
+								<option id="com.qnx.qcc.option.compiler.optlevel.669387372" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.0" valueType="enumerated"/>
+								<inputType id="com.qnx.qcc.inputType.compiler.1533377590" superClass="com.qnx.qcc.inputType.compiler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.assembler.1323990278" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
+								<inputType id="com.qnx.qcc.inputType.assembler.2030932435" superClass="com.qnx.qcc.inputType.assembler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.linker.1725798167" name="QCC Linker" superClass="com.qnx.qcc.tool.linker"/>
+							<tool id="com.qnx.qcc.tool.archiver.194564219" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.qnx.qcc.toolChain.1356137452">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.toolChain.1356137452" moduleId="org.eclipse.cdt.core.settings" name="aarch64le-coverage">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.systembuilder.cdt.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QDELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;com.qnx.tools.ide.qde.core.QDELinkerErrorParser;com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser;com.qnx.tools.ide.systembuilder.cdt.core.errorparser" id="com.qnx.qcc.toolChain.1356137452" name="aarch64le-coverage" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.qnx.qcc.toolChain.1356137452.650583593" name="/" resourcePath="">
+						<toolChain id="com.qnx.qcc.toolChain.818944985" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
+							<option id="com.qnx.qcc.option.os.242503833" name="Target OS:" superClass="com.qnx.qcc.option.os"/>
+							<option id="com.qnx.qcc.option.cpu.18775151" name="Target CPU:" superClass="com.qnx.qcc.option.cpu" value="com.qnx.qcc.option.gen.cpu.aarch64le" valueType="enumerated"/>
+							<option id="com.qnx.qcc.option.compiler.307057805" name="Compiler:" superClass="com.qnx.qcc.option.compiler"/>
+							<option id="com.qnx.qcc.option.runtime.240068507" name="C++ Runtime:" superClass="com.qnx.qcc.option.runtime"/>
+							<option id="com.qnx.qcc.option.buildtype.1312225987" name="Build Type:" superClass="com.qnx.qcc.option.buildtype" value="coverage" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.1364708912" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
+							<builder id="cdt.managedbuild.target.gnu.builder.base.1489290105" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.qnx.qcc.tool.compiler.243696116" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
+								<option id="com.qnx.qcc.option.compiler.optlevel.1961867365" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.0" valueType="enumerated"/>
+								<inputType id="com.qnx.qcc.inputType.compiler.634969177" superClass="com.qnx.qcc.inputType.compiler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.assembler.2011327347" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
+								<inputType id="com.qnx.qcc.inputType.assembler.1427398898" superClass="com.qnx.qcc.inputType.assembler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.linker.113138318" name="QCC Linker" superClass="com.qnx.qcc.tool.linker"/>
+							<tool id="com.qnx.qcc.tool.archiver.986490976" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.qnx.qcc.toolChain.1100342020">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.toolChain.1100342020" moduleId="org.eclipse.cdt.core.settings" name="aarch64le-profile">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.systembuilder.cdt.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QDELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;com.qnx.tools.ide.qde.core.QDELinkerErrorParser;com.qnx.tools.ide.qde.core.QdeExtraMakeErrorParser;com.qnx.tools.ide.systembuilder.cdt.core.errorparser" id="com.qnx.qcc.toolChain.1100342020" name="aarch64le-profile" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.qnx.qcc.toolChain.1100342020.638103641" name="/" resourcePath="">
+						<toolChain id="com.qnx.qcc.toolChain.202561141" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
+							<option id="com.qnx.qcc.option.os.676737010" name="Target OS:" superClass="com.qnx.qcc.option.os"/>
+							<option id="com.qnx.qcc.option.cpu.1430995568" name="Target CPU:" superClass="com.qnx.qcc.option.cpu" value="com.qnx.qcc.option.gen.cpu.aarch64le" valueType="enumerated"/>
+							<option id="com.qnx.qcc.option.compiler.304899212" name="Compiler:" superClass="com.qnx.qcc.option.compiler"/>
+							<option id="com.qnx.qcc.option.runtime.809741953" name="C++ Runtime:" superClass="com.qnx.qcc.option.runtime"/>
+							<option id="com.qnx.qcc.option.buildtype.747419881" name="Build Type:" superClass="com.qnx.qcc.option.buildtype" value="profile" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.76320567" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
+							<builder id="cdt.managedbuild.target.gnu.builder.base.61828900" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.qnx.qcc.tool.compiler.1149014231" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
+								<option id="com.qnx.qcc.option.compiler.optlevel.1539779675" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.0" valueType="enumerated"/>
+								<inputType id="com.qnx.qcc.inputType.compiler.1538344478" superClass="com.qnx.qcc.inputType.compiler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.assembler.517573623" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
+								<inputType id="com.qnx.qcc.inputType.assembler.314267322" superClass="com.qnx.qcc.inputType.assembler"/>
+							</tool>
+							<tool id="com.qnx.qcc.tool.linker.2037869673" name="QCC Linker" superClass="com.qnx.qcc.tool.linker"/>
+							<tool id="com.qnx.qcc.tool.archiver.1160174992" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="320_Lab2_1C_Compare_Mutex.null.252672088" name="320_Lab2_1C_Compare_Mutex"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.qnx.qcc.toolChain.844662996">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qnx.qcc.toolChain.907580146">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qnx.qcc.toolChain.1500206745">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qnx.qcc.toolChain.335219702">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qnx.qcc.toolChain.1356137452">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qnx.qcc.toolChain.824617909">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qnx.qcc.toolChain.968606457">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qnx.qcc.toolChain.1100342020">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

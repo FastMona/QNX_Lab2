@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>QNX_Lab2</name>
+	<comment></comment>
+	<projects>
+		<project>320_Lab2_1_Synchro_test</project>
+		<project>320_Lab2_1B_Synchro_Mutex</project>
+		<project>320_Lab2_1C_Compare_Mutex</project>
+		<project>320_Lab2_1C_Inversion_Mutex</project>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>
